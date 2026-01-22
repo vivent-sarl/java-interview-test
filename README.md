@@ -1,7 +1,15 @@
 # Vivent Java Interview Test
 
-Welcome to the Vivent Software Engineer interview test!
+Welcome to the Vivent Software Engineer interview test! During the coding exercise, you will use this repository as a starting point.
 
-We collect (a lot of) electrophysiological signals from plants. In order to ensure reliable, continuous data streams, we use Kafka as our data pipeline. It's important to us that our Software Engineers can work across the whole data pipeline, all the way to the user.
+# Task
 
-During the coding excercises, you will use this repository as entry point. Make sure to have you favourite Java IDE ready, and import this code.
+To speed up the coding process, please import this code in the IDE you like the most.
+
+The only system requirement is:
+- Java JDK 17, or later
+
+Now run `./gradlew clean bootRun` to start the application.
+
+Open your browser at http://localhost:8080/statistics, if you can see a message, good job, the task is done!
+
