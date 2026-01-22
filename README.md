@@ -4,7 +4,7 @@ Welcome to the Vivent Software Engineer interview test! During the coding exerci
 
 # Task
 
-To speed up the coding process, please import this code in the IDE you like the most.
+To speed up the coding process, please import this code in your favourite IDE.
 
 The only system requirement is:
 - Java JDK 17, or later
