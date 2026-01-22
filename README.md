@@ -11,5 +11,5 @@ The only system requirement is:
 
 Now run `./gradlew clean bootRun` to start the application.
 
-Open your browser at http://localhost:8080/statistics, if you can see a message, good job, the task is done!
+Open your browser at http://localhost:8080/statistics. If you can see a message, good job, the task is done!
 
