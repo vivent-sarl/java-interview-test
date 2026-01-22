@@ -14,7 +14,7 @@ public final class StatisticController {
     }
 
     @GetMapping
-    public String getSumOfValues() {
+    public String getSumOfCounters() {
         // TODO: Return statistics result.
         return "Hello!";
     }

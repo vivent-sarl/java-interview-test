@@ -1,3 +1,4 @@
+--liquibase formatted sql
 CREATE TABLE statistics (id SERIAL PRIMARY KEY, counter INTEGER);
 
 INSERT INTO statistics (counter) VALUES (100);

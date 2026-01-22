@@ -16,7 +16,7 @@ public class StatisticsControllerTest {
     private WebApplicationContext context;
 
     @Test
-    void shouldGetSumOfValues() throws Exception {
+    void shouldGetSumOfCounters() throws Exception {
         MockMvc mockMvc = MockMvcBuilders.webAppContextSetup(context).build();
         mockMvc.perform(get("/statistics"))
                 .andExpect(status().isOk());

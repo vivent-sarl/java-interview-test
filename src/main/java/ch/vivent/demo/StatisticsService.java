@@ -4,7 +4,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public final class StatisticsService {
-    public void sumOfValues() {
+    public Long sumOfCounters() {
         // TODO: Implement this method.
+        throw new IllegalStateException("Not implemented yet.");
     }
 }
