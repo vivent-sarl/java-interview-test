@@ -7,5 +7,5 @@ create table ref_metrics
     updated_ts   timestamp with time zone default CURRENT_TIMESTAMP(3) not null
 );
 
-create unique index ref_metrics_idx_2
+create unique index ref_metrics_idx
     on ref_metrics (source_id asc, metric_name asc, timestamp desc);
