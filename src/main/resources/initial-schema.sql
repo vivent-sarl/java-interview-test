@@ -1,5 +1,5 @@
 --liquibase formatted sql
-CREATE TABLE statistics (id SERIAL PRIMARY KEY, counter INTEGER);
+CREATE TABLE statistics (id SERIAL PRIMARY KEY, counter INTEGER NOT NULL);
 
 INSERT INTO statistics (counter) VALUES (100);
 INSERT INTO statistics (counter) VALUES (200);
